@@ -1,0 +1,682 @@
+@media screen and (max-width:767px){
+    body{
+        background: black;
+    }
+    
+    .Big-About-Container
+      {
+        position: relative;
+        top: 90px;
+        min-height: 100vh;
+      }
+
+      .TextHead-OurStory1{
+        /* margin-top: -85px; */
+        background-image: url('../asserts/backgroundAll3.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 70vh;
+        opacity: 0.8;
+        background-size: cover;
+      }
+
+      /* .TextHead-OurStory2{
+        max-height: 700px;
+      } */
+
+      #Story-TextHead1{
+        text-align: center;
+        margin-top: 90px;
+        color: #cc2828;
+        font-size: 21px;
+        letter-spacing: 2px;
+        text-wrap: nowrap;
+        font-family: "Charm", cursive;
+        font-weight: 600;
+      }
+    
+      #Story-TextHead2{
+        text-align: center;
+        color: #f3f3f3;
+        font-size: 2.4em;
+        letter-spacing: 2px;
+        font-weight: 700;
+        text-wrap: nowrap;
+      }
+
+      @keyframes Anim {
+        from{
+          opacity: 0;
+        }
+        to{
+          opacity: 1;
+        }       
+      }      
+
+      #AboutUs-Head{
+        position: absolute;
+        top: 250px;
+        left: 20%;
+        font-size: 2.5em;
+        font-style: normal;
+        color: #ddd9d9;  
+        font-family: "Bubblegum Sans", sans-serif;
+        letter-spacing: 3px;
+        border: 1px solid brown;
+        animation: Anim 2s ease-in forwards;  
+      }
+
+      .display1{
+        margin-top: 80px;
+      }
+
+      .DD1{
+        width: 60%;
+        border: 2px solid rgb(131, 12, 12);
+
+      }
+
+      .DD2{
+        width: 50%;
+       margin-left: -90px;
+       border: 20px solid rgb(131, 12, 12);
+      }
+
+      #AboutUs-Text1{
+        color: #fff;
+        margin-top: 60px;
+        font-size: 20px;
+        text-align:left;
+        line-height: 35px;
+        padding: 30px;
+      }
+
+
+      #AboutUs-Button1{
+        margin-left: 100px;
+        border: none;
+        display: block;
+        position: relative;
+        padding: 0.7em 2.4em;
+        font-size: 18px;
+        background: transparent;
+        cursor: pointer;
+        user-select: none;
+        overflow: hidden;
+        color: #fff;
+        z-index: 1;
+        font-family: inherit;
+        font-weight: 500;
+      }
+
+      #AboutUs-Button1 span{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        z-index: -1;
+        border: 4px solid brown;
+      }
+
+      #AboutUs-Button1 span::before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 8%;
+        height: 500%;
+        background: var(--lightgray);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(-60deg);
+        transition: all 0.3s;
+      }
+      
+      #AboutUs-Button1:hover span::before {
+        transform: translate(-50%, -50%) rotate(-90deg);
+        width: 100%;
+        background: brown;
+      }
+      
+      #AboutUs-Button1:hover {
+        color: white;
+      }
+      
+      #AboutUs-Button1:active span::before {
+        background: brown;
+      }
+
+      #AboutUs-Text2{
+        color: #fff;
+        font-size: 20px;
+        text-align: left;
+        line-height: 35px;
+        margin-top: -70px;
+        padding: 30px;
+        height: 760px;
+      }
+
+      #AboutUs-Button2{
+        margin-left: 100px;
+        margin-top: -100px;
+        border: none;
+        display: block;
+        position: relative;
+        padding: 0.7em 2.4em;
+        font-size: 18px;
+        background: transparent;
+        cursor: pointer;
+        user-select: none;
+        overflow: hidden;
+        color: #fff;
+        z-index: 1;
+        font-family: inherit;
+        font-weight: 500;
+      }
+
+      #AboutUs-Button2 span{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        z-index: -1;
+        border: 4px solid brown;
+      }
+
+      #AboutUs-Button2 span::before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 8%;
+        height: 500%;
+        background: var(--lightgray);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(-60deg);
+        transition: all 0.3s;
+      }
+      
+      #AboutUs-Button2:hover span::before {
+        transform: translate(-50%, -50%) rotate(-90deg);
+        width: 100%;
+        background: brown;
+      }
+      
+      #AboutUs-Button2:hover {
+        color: white;
+      }
+      
+      #AboutUs-Button2:active span::before {
+        background: brown;
+      }
+ 
+
+      .Whole-Choose{
+        margin-top: 150px;
+        /* height: 20vh; */
+      }
+    
+      .Why-Choose{
+        margin-top: -90px;
+        position: absolute;
+        background-attachment: fixed; 
+        /* background-image: url(../asserts/For-Me.jpg); */
+        /* background-image: url(../asserts/RestaurantBackground2.png); */
+        background-image: url('../asserts/backgroundAll3.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 220vh;
+        opacity: 0.7;
+      }
+
+      #ChooseText1{
+        margin-top: 70px;
+        margin-left: 20px;
+        font-size: 20px;
+        color: #fff8f8;
+      }
+
+      #ChooseText1::after{
+        position: absolute;
+        margin-left: 10px;
+        margin-top: 10px;
+        content: "";
+        width: 140px;
+        height: 3px;
+        background: white;
+      }
+
+      #ChooseText2{
+        margin-top: 20px;
+        font-size: 35px;
+        text-align: center;
+        color: brown;
+        opacity: 2;
+        font-family: "DM Serif Text", serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+
+      .ChooseConty1{
+        margin-top: 50px;
+        margin-left: 20px;
+        border: 2px solid black;
+        /* background: rgb(249, 248, 248); */
+        opacity: 0.5;
+        width: 90%;
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 2px 2px 16px brown;
+        cursor: pointer;
+      }
+
+      #NumChoose{
+        font-size: 37px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #cc2828;
+      }
+
+      #TextyChoose{
+        color: white;
+        margin-top: 40px;
+        font-family: "Charm", cursive;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 30px;
+      }
+
+      #Para-Choose{
+        color: #f3f3f3;
+        font-size: 18px;
+        margin-top: 15px;
+      }
+
+      .ChooseConty1:hover{
+        background: black;
+        opacity: 2;
+        color: #fff;
+      }
+}
+
+
+/* this section of the code is for bigger screens (min-width: 1024px)- about section */
+@media screen and (min-width: 1024px){
+  body{
+    background: #000;
+}   
+
+  .Big-About-Container
+  {
+    position: relative;
+    top: 10px;
+    min-height: 100vh;
+    background: #000;
+  }
+
+  .TextHead-OurStory1{
+    margin-top: -85px;
+    background-image: url('../asserts/backgroundAll3.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /* width: 210vb; */
+    height: 110vh;
+    opacity: 0.7;
+    background-size: cover;
+  }
+
+  .display1{
+    margin-top: -100px;
+  }
+
+  .DD1{
+    margin-left: 80px;
+    margin-top: -90px;
+    width: 400px;
+    height: 600px;
+    border: 3px solid rgb(131, 12, 12);
+  }
+
+  .DD2{
+    margin-left: -150px;
+    border: 20px solid rgb(131, 12, 12);
+    width: 350px;
+    height: 300px;
+  }
+
+  .TextHead-OurStory2{
+    margin-top: 120px;
+  }
+
+  #Story-TextHead1{
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 550px;
+    color: #cc2828;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-wrap: nowrap;
+    font-family: "Charm", cursive;
+    font-weight: 600;
+  }
+
+  #Story-TextHead2{
+    margin-left: 580px;
+    text-align: center;
+    color: #f3f3f3;
+    font-size: 3em;
+    letter-spacing: 7px;
+    font-weight: 800;
+    text-wrap: nowrap;
+  }
+
+  @keyframes Anim {
+    from{
+      opacity: 0;
+    }
+    to{
+      opacity: 1;
+    }       
+  }      
+
+  #AboutUs-Head{
+    position: absolute;
+    top: 320px;
+    left: 35%;
+    font-size: 5em;
+    font-style: normal;
+    color: #ddd9d9;  
+    font-family: "Bubblegum Sans", sans-serif;
+    letter-spacing: 3px;
+    border: 1px solid brown;
+    animation: Anim 2s ease-in forwards; 
+  }
+
+
+
+  .AboutUs-Text{
+    position: relative;
+    margin-top: 40px;
+    /* height: 70vh; */
+  }
+
+  #AboutUs-Text1{
+    margin-right: 90px;
+    margin-top: -400px;
+    color: #fff;
+    text-align: left;
+    font-size: 18px;
+    line-height: 27px;
+    width: 500px;
+    display: flex;
+    float: right;
+    background: #000
+  }
+
+  #AboutUs-Button1{
+    position: absolute;
+    margin-left: 900px;
+    margin-top: -120px;
+    border: none;
+    display: block;
+    padding: 0.7em 2.4em;
+    font-size: 18px;
+    background: transparent;
+    cursor: pointer;
+    user-select: none;
+    overflow: hidden;
+    color: #fff;
+    z-index: 1;
+    font-family: inherit;
+    font-weight: 500;
+  }
+
+  #AboutUs-Button1 span{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    z-index: -1;
+    border: 4px solid brown;
+  }
+
+  #AboutUs-Button1 span::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 8%;
+    height: 500%;
+    background: var(--lightgray);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-60deg);
+    transition: all 0.3s;
+  }
+  
+  #AboutUs-Button1:hover span::before {
+    transform: translate(-50%, -50%) rotate(-90deg);
+    width: 100%;
+    background: brown;
+  }
+  
+  #AboutUs-Button1:hover {
+    color: white;
+  }
+  
+  #AboutUs-Button1:active span::before {
+    background: brown;
+  }
+
+  #AboutUs-Text2{
+    margin-right: 90px;
+    margin-top: -330px;
+    color: #fff;
+    text-align: left;
+    font-size: 18px;
+    line-height: 27px;
+    width: 500px;
+    display: flex;
+    float: right;
+    background: #000
+  }
+
+  #AboutUs-Button2{
+    display: flex;
+    margin-left: 900px;
+    margin-top: 180px;
+    border: none;
+    display: block;
+    position: relative;
+    padding: 0.7em 2.4em;
+    font-size: 18px;
+    background: transparent;
+    cursor: pointer;
+    user-select: none;
+    overflow: hidden;
+    color: #fff;
+    z-index: 1;
+    font-family: inherit;
+    font-weight: 500;
+  }
+
+  #AboutUs-Button2 span{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    z-index: -1;
+    border: 4px solid brown;
+  }
+
+  #AboutUs-Button2 span::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 8%;
+    height: 500%;
+    background: var(--lightgray);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-60deg);
+    transition: all 0.3s;
+  }
+  
+  #AboutUs-Button2:hover span::before {
+    transform: translate(-50%, -50%) rotate(-90deg);
+    width: 100%;
+    background: brown;
+  }
+  
+  #AboutUs-Button2:hover {
+    color: white;
+  }
+  
+  #AboutUs-Button2:active span::before {
+    background: brown;
+  }
+
+  .Fast-Facts-Container{
+    position: absolute;
+    width: 100%;
+    margin-top: 90px;
+    border-top: 1px solid rgb(59, 56, 56);
+  }
+
+  #Fast-Facts-h3{
+    color: #fff; 
+    font-size: 2em;
+    margin-left: -140px ;
+    margin-top: 90px;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+
+  #Fast-Facts-List{
+    margin-top: 50px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 40px;
+    list-style-type: none;
+    text-align: center;
+  }
+
+  #Fast-Facts-List li::before{
+    content: ".";
+    color: brown;
+    font-size: 70px;
+    margin-right: 5px;
+    padding: 5px;
+  }
+
+  .Whole-Choose{
+    margin-top: 180px;
+    /* height: 20vh; */
+  }
+
+
+  .Why-Choose{
+    position: absolute;
+    background-attachment: fixed; 
+    /* background-image: url(../asserts/For-Me.jpg); */
+    /* background-image: url(../asserts/RestaurantBackground2.png); */
+    background-image: url('../asserts/backgroundAll3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 110vh;
+    opacity: 0.4;
+  }
+
+  #ChooseText1{
+    position: absolute;
+    left: 40%;
+    margin-top: 50px;
+    text-align: center;
+    color: #cc2828;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-wrap: nowrap;
+    font-family: "Charm", cursive;
+    font-weight: 600;
+    font-style: italic;
+  }
+
+  #ChooseText1::after{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 12px;
+    content: "";
+    width: 130px;
+    height: 2px;
+    background: white;
+  }
+
+  #ChooseText2{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 30%;
+    text-align: center;
+    font-size: 3em;
+    color: #fff;
+    opacity: 2;
+    font-family: "DM Serif Text", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+  .Choose-ContyCC{
+    position: absolute;
+    margin-top: 170px;
+    display: flex;
+    margin-left: 50px;
+  }
+
+  .ChooseConty1{
+    margin-top: 50px;
+    margin-left: 20px;
+    border: 2px solid black;
+    opacity: 0.5;
+    width: 400px;
+    height: 350px;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 16px brown;
+    cursor: pointer;
+  }
+
+  #NumChoose{
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #cc2828;
+  }
+
+  #TextyChoose{
+    color: white;
+    margin-top: 30px;
+    font-family: "Charm", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
+  }
+
+  #Para-Choose{
+    font-size: 17px;
+    margin-top: 15px;
+    color: #fff;
+  }
+
+  .ChooseConty1:hover{
+    background: black;
+    opacity: 2;
+    color: #fff;
+  }
+
+}

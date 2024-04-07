@@ -1,0 +1,17 @@
+.timer-container {
+  text-align: center;
+  margin-top: 200px;
+  font-family: Arial, sans-serif;
+}
+
+.timer {
+  margin-top: 150px;
+  color: #fff;
+}
+
+.timer span {
+  color: yellow;
+  font-size: 23px;
+  margin: 0 5px;
+  border: 2px solid #fff;
+}

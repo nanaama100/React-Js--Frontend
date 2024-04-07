@@ -1,0 +1,370 @@
+@media screen and (max-width:769px){
+  .TheBlogImage{
+    background-image: url('../asserts/backgroundAll3.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70vh;
+    opacity: 0.8;
+    background-size: cover;
+  }
+
+  @keyframes Anim {
+    from{
+      opacity: 0;
+    }
+    to{
+      opacity: 1;
+    }       
+  }  
+
+  #BlogTextHead{
+    position: absolute;
+    top: 250px;
+    left: 20%;
+    font-size: 2.5em;
+    font-style: normal;
+    color: #ddd9d9;  
+    font-family: "Bubblegum Sans", sans-serif;
+    letter-spacing: 3px;
+    border: 1px solid brown;
+    animation: Anim 2s ease-in forwards;
+  }
+
+  .AllBigBlogConty{
+    margin-top: 130px;
+  }
+
+  #BlogDate{
+    margin-top: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-family: "Charm", cursive;
+  }
+  
+  #BlogText{
+     color: #cc2828;
+     font-size: 25px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+  }
+
+  .BlogColumn1{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center
+  }
+
+  .Blog1{
+    width: 40vb;
+    height: 50vh;
+  }
+
+  .Blog2{
+    margin-top: 80px;
+    width: 40vb;
+    height: 50vh;
+  }
+  
+  .Blog3{
+    margin-top: 80px;
+    width: 40vb;
+    height: 40vh;
+  }
+
+  .Blog4{
+    margin-top: 80px;
+    width: 40vb;
+    height: 30vh;
+  }
+
+  .BlogColumn2{
+    margin-top: 30px;
+    width: 50vb;
+    text-align: center;
+  }
+
+  .BlogLeaf{
+    margin-top: 90px;
+    font-size: 150px;
+    color: #cc2828;
+    opacity: 0.2;
+  }
+
+  .Blog5{
+    margin-top: 60px;
+    width: 310px;
+    height: 40vh;
+  }
+
+  .Blog6{
+    margin-top: 130px;
+    width: 310px;
+    height: 40vh;
+  }
+
+  .BlogLeaf1{
+    margin-top: 100px;
+    font-size: 150px;
+    color: #cc2828;
+    opacity: 0.2;
+  }
+
+  .Blog7{
+    margin-top: 150px;
+    width: 40vb;
+    height: 60vh;
+  }
+
+  .BlogColumn3{
+    margin-top: -20px;
+    margin-left: 30px;
+    text-align: center;
+    width: 70%;
+  }
+}
+
+
+@media screen and (min-width: 1024px){
+    .TheBlogImage{
+        margin-top: -85px;
+        background-image: url('../asserts/backgroundAll3.jpg');
+        background-repeat: no-repeat;
+        /* width: 210vb; */
+        height: 110vh;
+        opacity: 0.7;
+        background-size: cover;
+    }
+
+    @keyframes Anim {
+        from{
+          opacity: 0;
+        }
+        to{
+          opacity: 1;
+        }       
+      } 
+
+    #BlogTextHead{
+        position: absolute;
+        top: 320px;
+        left: 35%;
+        font-size: 5em;
+        font-style: normal;
+        color: #ddd9d9;  
+        font-family: "Bubblegum Sans", sans-serif;
+        letter-spacing: 3px;
+        border: 1px solid brown;
+        animation: Anim 2s ease-in forwards; 
+    }
+
+      /* this part is for the background lines */
+
+.Bloglines {
+    position: absolute;
+    top: 600px;
+    left: 0;
+    right: 0;
+    height: 800px;
+    margin: auto;
+    width: 90vw;
+    /* opacity: 0.5; */
+    z-index: 0;
+  }
+  
+  .Blogline {
+    position: absolute;
+    width: 1px;
+    height: 400vh;
+    top: 0;
+    left: 30%;
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+  }
+
+  .Blogline::after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 20vh;
+    width: 100%;
+    top: -50%;
+    left: 0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ffffff 75%, #ffffff 100%);
+    -webkit-animation: drop 9s 0s infinite;
+            animation: drop 9s 0s infinite;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+            animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+  }
+  .Blogline:nth-child(1) {
+    margin-left: 40%;
+  }
+  .Blogline:nth-child(1)::after {
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+  }
+
+  /* .Blogline:nth-child(3) {
+    margin-left: 35%;
+  }
+
+  .Blogline:nth-child(3)::after {
+    -webkit-animation-delay: 2.5s;
+            animation-delay: 2.5s;
+  } */
+  
+  @-webkit-keyframes drop {
+    0% {
+      top: -50%;
+    }
+    100% {
+      top: 110%;
+    }
+  }
+  
+  @keyframes drop {
+    0% {
+      top: -50%;
+    }
+    100% {
+      top: 110%;
+    }
+  }
+
+  .AllBigBlogConty{
+    display: flex;
+  }
+
+  #BlogDate{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 18px;
+    font-family: "Charm", cursive;
+  }
+  
+  #BlogText{
+     color: #cc2828;
+     font-size: 25px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+  }
+
+  .BlogColumn1{
+    width: 40vb;
+    margin-top: 90px;
+    margin-left: 100px;
+    text-align: center
+  }
+
+  .Blog1{
+    margin-top: 50px;
+    width: 300px;
+    height: 70vh;
+    cursor:pointer
+  }
+
+  .Blog1:hover{
+    transform: scale(1.1);
+    border: 2px solid grey;
+  }
+
+  .Blog2{
+    margin-top: 80px;
+    width: 300px;
+    height: 70vh;
+    cursor:pointer
+  }
+
+  .Blog2:hover{
+    transform: scale(1.1);
+    border: 2px solid grey;
+  }
+  
+  .Blog3{
+    margin-top: 80px;
+    width: 300px;
+    height: 50vh;
+    cursor:pointer
+  }
+
+  .Blog3:hover{
+    transform: scale(1.1);
+    border: 2px solid grey;
+  }
+
+  .Blog4{
+    margin-top: 80px;
+    width: 300px;
+    height: 50vh;
+    cursor:pointer
+  }
+
+  .Blog4:hover{
+    transform: scale(1.1);
+    border: 2px solid grey;
+  }
+
+  .BlogColumn2{
+    margin-top: 60px;
+    margin-left: 170px;
+    width: 50vb;
+    text-align: center;
+  }
+
+  .BlogLeaf{
+    margin-top: 70px;
+    font-size: 150px;
+    color: #cc2828;
+    opacity: 0.2;
+  }
+
+  .Blog5{
+    margin-top: 80px;
+    width: 310px;
+    height: 40vh;
+    cursor:pointer    
+  }
+
+  .Blog5:hover{
+    transform: scale(1.1);
+    border: 2px solid grey;
+  }
+
+  .Blog6{
+    margin-top: 130px;
+    width: 310px;
+    height: 40vh;
+    cursor:pointer;
+  }
+
+  .Blog6:hover{
+    transform: scale(1.1);
+    border: 2px solid grey;
+  }
+
+  .BlogLeaf1{
+    margin-top: 100px;
+    font-size: 150px;
+    color: #cc2828;
+    opacity: 0.2;
+  }
+
+  .Blog7{
+    margin-top: 150px;
+    width: 300px;
+    height: 70vh;
+    cursor:pointer;
+  }
+
+  .Blog7:hover{
+    transform: scale(1.1);
+    border: 2px solid grey;
+  }
+
+  .BlogColumn3{
+    margin-left: 130px;
+    margin-top: -10px;
+    text-align: center;
+    width: 50vb;
+  }
+
+}

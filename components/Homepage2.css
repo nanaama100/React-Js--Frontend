@@ -1,0 +1,979 @@
+@media screen and (max-width:769px){
+
+  body{ 
+    background-color: #000;
+    min-height: 100vh;
+  } 
+
+  .HomePage{
+    position: relative;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+  }
+
+.backdrop{
+    display: none;
+}
+
+#video1{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+
+.loader {
+  position: absolute;
+  top: 200px;
+  left: 160px;
+  border: 10px solid #f3f3f3;
+  border-top: 16px solid brown;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 10s linear infinite;
+}
+
+/* Add some glow effect */
+.loader::after {
+  content: "";
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  border-radius: 50%;
+  box-shadow: inset 0px 0px 20px brown;
+}
+
+/* Rotate the circle */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.TxtVidCont{
+  position: absolute;
+  top: 280px;
+  left: 100px;
+}
+
+  @keyframes Upwards{
+    from{
+        transform: translateY(100%);
+    }
+    to{
+        transform: translateY(0);
+    }
+    }
+
+    #Vid-Tag{
+      margin-left: -80px;
+      /* font-family: 'Cookie', cursive; */
+      font-family: 'Times New Roman', Times, serif;
+      text-align: justify;
+      justify-content: center;
+      font-size: 2em;
+      color: #fff;
+      text-shadow: 2px 2px 5px brown;
+      font-weight: 500;
+      animation: Upwards 1s forwards;
+  }
+  
+  #Vid-Tag1{
+      padding-left: 15px;
+      font-family:"Bubblegum Sans", sans-serif;
+      text-align: justify;
+      font-size: 28px;
+      color: white;
+      background-color: brown;
+      box-shadow: 2px 2px 8px black;
+      font-weight: 500;
+      border-radius: 10px;
+      width: 200px;
+  }
+  
+  #Vid-Tag1:hover{
+      cursor: pointer;
+      background-color: grey;
+  }
+
+  .cont2{
+    position: absolute;
+    top: 590px;
+    background-color: #0f0e0e;
+    width: 100%;
+    height: 1600px;
+  }
+
+  .FirstImageView{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+  }
+  
+  .SecondImageView{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;  
+  }
+
+  .ExperienceConty{
+    border: 2px solid brown;
+    height: 310px;
+    margin: auto;
+  }
+
+  #Exp1{
+    margin-top: 50px;
+    font-size: 6em;
+    text-align: center;
+    color: #cc2828;
+    font-family: "Charm", cursive; 
+  }
+  
+  #Exp2{
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+  }
+
+#Text1{
+    color: #cc2828;
+    letter-spacing: 2px;
+    text-wrap: nowrap;
+    font-family: "Charm", cursive;
+    font-weight: 700;
+    font-style: normal;
+     margin-top: 70px;
+     font-size: 2em;
+     text-align: center;
+}
+
+#Texty1{
+  text-align: center;
+  color: #f3f3f3;
+  font-size: 3em;
+  letter-spacing: 7px;
+  font-weight: 800;
+  text-wrap: nowrap;
+}
+
+#Text2{
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    padding: 30px;
+}
+
+#img1{
+    margin-top: 20px;
+    width: 100%;
+    height: 290px;
+}
+
+
+.cont3{
+  position: absolute;
+  top: 3300px;
+  border-top: 1px solid rgb(49, 47, 47);
+  background-color: #0f0e0e;
+}
+
+#Text3{
+   font-size: 2em;
+   margin-top: 40px;
+   text-align: center;
+   color: #cc2828;
+   font-size: 2.5em;
+   letter-spacing: 2px;
+   text-wrap: nowrap;
+   font-family: "Charm", cursive;
+   font-weight: 600;
+   font-style: normal;
+}
+
+#Text4{
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    padding: 30px;
+}
+
+#Text5{
+    color: #ea0909;
+    padding: 20px;
+    font-family: "Charm", cursive;
+    font-size: 40px;
+    font-weight: 980;
+    margin-top: 90px;
+    text-align: center;
+}
+
+#Text6{
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    padding: 35px;
+    margin-top: -30px;
+}
+
+.TheImages{
+  z-index: 1;
+  margin-top: 30px;
+}
+
+#ImagesRest{
+    height: 35vh;
+    width: 100%;
+    background-color: #0a0909;
+}
+
+.HourOpera-Text{
+  background-color: #070606;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.cont4{
+  position: absolute;
+  top: 4300px;
+  height: 600px;
+  /* background-color: #000; */
+  background-image: url('../asserts/HourOpera3.jpg');
+  background-attachment: fixed;
+  opacity: 0.5;
+  width: 100%;
+}
+
+
+/* this section of the code is for the loader before the carousel */
+.loadey {
+  width: 80px;
+  height: 50px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 120px;
+  position: relative;
+}
+
+.loadery-text {
+  position: absolute;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  color: brown;
+  animation: text_713 3.5s ease both infinite;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.loady {
+  background-color: brown;
+  border-radius: 60px;
+  display: block;
+  height: 16px;
+  width: 30px;
+  bottom: 0;
+  position: absolute;
+  transform: translateX(64px);
+  animation: loading_713 3.5s ease both infinite;
+}
+
+.loady::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #D1C2FF;
+  border-radius: inherit;
+  animation: loading2_713 3.5s ease both infinite;
+}
+
+@keyframes text_713 {
+  0% {
+    letter-spacing: 1px;
+    transform: translateX(0px);
+  }
+
+  40% {
+    letter-spacing: 2px;
+    transform: translateX(26px);
+  }
+
+  80% {
+    letter-spacing: 1px;
+    transform: translateX(32px);
+  }
+
+  90% {
+    letter-spacing: 2px;
+    transform: translateX(0px);
+  }
+
+  100% {
+    letter-spacing: 1px;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes loading_713 {
+  0% {
+    width: 16px;
+    transform: translateX(0px);
+  }
+
+  40% {
+    width: 100%;
+    transform: translateX(0px);
+  }
+
+  80% {
+    width: 16px;
+    transform: translateX(64px);
+  }
+
+  90% {
+    width: 100%;
+    transform: translateX(0px);
+  }
+
+  100% {
+    width: 16px;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes loading2_713 {
+  0% {
+    transform: translateX(0px);
+    width: 16px;
+  }
+
+  40% {
+    transform: translateX(0%);
+    width: 80%;
+  }
+
+  80% {
+    width: 100%;
+    transform: translateX(0px);
+  }
+
+  90% {
+    width: 80%;
+    transform: translateX(15px);
+  }
+
+  100% {
+    transform: translateX(0px);
+    width: 16px;
+  }
+}
+
+/* this section of the code is for the menu and food spin */
+
+.DiscoverMenu{
+  position: absolute;
+  top: 2250px;
+  /* background-color: #0a0909; */
+  /* border-top: 2px solid  #161414; */
+}
+
+#FoodSection{
+  text-align: center;
+  letter-spacing: 2px;
+  color: #cc2828;
+  font-size: 2.5em;
+  letter-spacing: 2px;
+  text-wrap: nowrap;
+  font-family: "Charm", cursive;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 80px;
+}
+
+.TheTextMenu{
+  margin-top: 390px;
+  margin-left: 20px;
+}
+
+.SpinImage{
+  position: absolute;
+  margin-top: -740px;
+  margin-left: 30px;
+  width: 300px;
+  height: auto;
+  animation: rotate 14s linear infinite
+}
+
+@keyframes rotate {
+  from{
+    transform: rotate(0 deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+#Discover-Font{ 
+  text-align: center; 
+  color: #cc2828;
+  font-size: 50px;
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#Menu-Font{
+  color: #fff;
+  font-size: 45px;
+  text-align: center;
+  margin-top: -20px;
+}
+
+#Spin-Text-Paragraph{
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+  font-size: 18px;
+  padding: 30px;
+}
+
+#MenuButton{
+  height: 70px;
+  width: 190px;
+  font-size: 20px;
+  padding: 20px;
+  display: flex;
+  margin: auto;
+  color: #cc2828;
+  background-color: #000;
+  border-color: brown;
+  cursor: pointer;
+}
+
+#MenuButton:hover{
+  background-color: rgb(14, 12, 12);
+}
+
+}
+
+
+
+
+
+/* for media screens like laptops, desktops etc */
+
+@media screen and (min-width: 1024px){
+  body{ 
+    min-height: 200vh;
+  } 
+
+  .HomePage{
+    position: relative;
+    margin-top: 70px;
+    min-height: 450vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #video1{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+
+  .loader {
+    position: absolute;
+    top: 150px;
+    left: 600px;
+    border: 10px solid #f3f3f3;
+    border-top: 16px solid brown;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    animation: spin 10s linear infinite;
+  }
+  
+  /* Add some glow effect */
+  .loader::after {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 20px brown;
+  }
+  
+  /* Rotate the circle */
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .TxtVidCont{
+    position: absolute;
+    top: 250px;
+    left: 500px;
+  }
+
+  @keyframes Upwards{
+    from{
+        transform: translateY(100%);
+    }
+    to{
+        transform: translateY(0);
+    }
+    }
+
+  #Vid-Tag{
+    margin-left: -100px;
+    /* font-family: 'Cookie', cursive; */
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    font-size: 3em;
+    color: #fff;
+    text-shadow: 2px 2px 5px brown;
+    font-weight: 500;
+    animation: Upwards 1s forwards;
+}
+
+#Vid-Tag1{
+    padding-left: 15px;
+    margin-left: 60px;
+    font-family:"Bubblegum Sans", sans-serif;
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    background-color: brown;
+    box-shadow: 2px 2px 8px black;
+    font-weight: 500;
+    border-radius: 10px;
+    width: 200px;
+}
+
+#Vid-Tag1:hover{
+    cursor: pointer;
+    background-color: grey;
+}
+
+.cont2{
+  position: absolute;
+  top: 600px;
+  background-color: #070606;
+  width: 100%;
+}
+
+.FirstImageView{
+  width: 600px;
+  height: auto;
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+.SecondImageView{
+  width: 300px;
+  height: auto;
+  margin-top: 30px;
+  margin-left: 95px;
+}
+
+.ExperienceConty{
+  margin-left: 450px;
+  margin-top: -190px;
+}
+
+.ImagesOne{
+  display: flex;
+  flex-direction: column;
+}
+
+#Exp1{
+  font-size: 6em;
+  color: #cc2828;
+  font-family: "Charm", cursive; 
+}
+
+#Exp2{
+  color: #fff;
+  font-size: 18px;
+}
+
+
+.Text-Image{
+  display: flex;
+}
+
+.TextFirstImages{
+  margin-left: 90px;
+}
+
+#Text1{
+  margin-top: 220px;
+  margin-left: 70px;
+  order: 1;
+  color: #cc2828;
+  font-size: 2em;
+  letter-spacing: 2px;
+  text-wrap: nowrap;
+  font-family: "Charm", cursive;
+  font-weight: 600;
+  font-style: normal;
+}
+
+#Texty1{
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 60px;
+  order: 1;
+  color: #f3f3f3;
+  font-size: 3.3em;
+  letter-spacing: 7px;
+  font-weight: 800;
+  text-wrap: nowrap;
+}
+
+#Text2{
+  margin-top: 130px;
+  line-height: 30px;
+  /* margin-left: -350px; */
+  order: 2;
+  color: #fff;
+  font-size: 18px;
+  text-align: left;
+  width: 70vb;
+} 
+
+
+.backdrop{
+  margin-left: 800px;
+  margin-top: -680px;
+  height: 800px;
+  width: 10px;
+  background-color: rgb(129, 26, 26);
+  
+}
+
+#img1{
+  width: 400px;
+  height: 620px;
+  margin-top: 110px;
+  margin-left: 200px;
+  border-radius: 80px;
+} 
+
+
+.cont3{
+  position: absolute;
+  top: 2300px;
+  /* border-top: 1px solid rgb(49, 47, 47); */
+  background-color: #090808;
+}
+
+#Text3{
+  font-size: 2em;
+  margin-top: 90px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #cc2828;
+  font-size: 2.5em;
+  letter-spacing: 2px;
+  text-wrap: nowrap;
+  font-family: "Charm", cursive;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.TheImages{
+  position: absolute;
+  margin-top: -70px;
+  margin-left: 20px;
+  width: 97%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+#ImagesRest{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+#Text4{
+   color: #fff;
+   margin-top: -120px;
+   font-size: 18px;
+   text-align: center;
+   padding: 150px;
+   line-height: 30px;
+}
+
+.cont4{
+  position: absolute;
+  top: 3400px;
+  height: 80vh;
+  background-image: url('../asserts/HourOpera3.jpg');
+  background-attachment: fixed;
+  opacity: 0.5;
+  width: 100%;
+}
+
+.HourOpera-Text{
+  margin-top: 120px;
+  background-color: #000;
+  max-width: fit-content;
+  height: 350px;
+  margin-left: 300px;
+}
+
+#Text5{
+  padding: 50px;
+  /* color: #e80c0c;  */
+  color: #cc2828;
+  font-size: 2.5em;
+  margin-top: 80px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: "Charm", cursive;
+  font-weight: 700;
+}
+
+
+#Text6{
+  margin-top: -20px;
+  color: #ffff;
+  font-size: 18px;
+  text-align: center;
+  line-height: 30px;
+  padding: 30px;
+}
+
+
+/* this section of the code is for the loader before the carousel */
+.loadey {
+  width: 80px;
+  height: 50px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 200px;
+  position: relative;
+}
+
+.loadery-text {
+  position: absolute;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  color: brown;
+  animation: text_713 3.5s ease both infinite;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.loady {
+  background-color: brown;
+  border-radius: 60px;
+  display: block;
+  height: 16px;
+  width: 30px;
+  bottom: 0;
+  position: absolute;
+  transform: translateX(64px);
+  animation: loading_713 3.5s ease both infinite;
+}
+
+.loady::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #D1C2FF;
+  border-radius: inherit;
+  animation: loading2_713 3.5s ease both infinite;
+}
+
+@keyframes text_713 {
+  0% {
+    letter-spacing: 1px;
+    transform: translateX(0px);
+  }
+
+  40% {
+    letter-spacing: 2px;
+    transform: translateX(26px);
+  }
+
+  80% {
+    letter-spacing: 1px;
+    transform: translateX(32px);
+  }
+
+  90% {
+    letter-spacing: 2px;
+    transform: translateX(0px);
+  }
+
+  100% {
+    letter-spacing: 1px;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes loading_713 {
+  0% {
+    width: 16px;
+    transform: translateX(0px);
+  }
+
+  40% {
+    width: 100%;
+    transform: translateX(0px);
+  }
+
+  80% {
+    width: 16px;
+    transform: translateX(64px);
+  }
+
+  90% {
+    width: 100%;
+    transform: translateX(0px);
+  }
+
+  100% {
+    width: 16px;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes loading2_713 {
+  0% {
+    transform: translateX(0px);
+    width: 16px;
+  }
+
+  40% {
+    transform: translateX(0%);
+    width: 80%;
+  }
+
+  80% {
+    width: 100%;
+    transform: translateX(0px);
+  }
+
+  90% {
+    width: 80%;
+    transform: translateX(15px);
+  }
+
+  100% {
+    transform: translateX(0px);
+    width: 16px;
+  }
+}
+
+.DiscoverMenu{
+  position: absolute;
+  top: 1450px;
+  /* background-color: #0a0909; */
+  /* border-top: 2px solid  #161414; */
+  height: 110vh;
+}
+
+#FoodSection{
+  margin-top: 70px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #cc2828;
+  font-size: 2.5em;
+  letter-spacing: 2px;
+  text-wrap: nowrap;
+  font-family: "Charm", cursive;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.SpinImage{
+  position: absolute;
+  float: right;
+  margin-top: 80px;
+  margin-left: 28px;
+  width: 490px;
+  height: auto;
+  animation: rotate 14s linear infinite
+}
+
+@keyframes rotate {
+  from{
+    transform: rotate(0 deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+#Discover-Font{
+  margin-left: 480px;
+  color: #cc2828;
+  font-size: 60px;
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#Menu-Font{
+  color: #fff;
+  font-size: 50px;
+  margin-left: 400px;
+  margin-top: -35px;
+}
+
+.TheTextMenu{
+  float: left;
+  width: 50%;
+  margin-top: 160px;
+  margin-left: 20px;
+}
+
+#Spin-Text-Paragraph{
+  text-align: right;
+  font-size: 15px;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+#MenuButton{
+  height: 70px;
+  width: 150px;
+  font-size: 16px;
+  margin-top: 50px;
+  margin-left: 450px;
+  color: #cc2828;
+  background-color: #000;
+  border-color: brown;
+  cursor: pointer;
+}
+
+#MenuButton:hover{
+  background-color: rgb(14, 12, 12);
+}
+}

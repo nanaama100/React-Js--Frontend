@@ -1,0 +1,262 @@
+@media screen and (max-width:769px){
+
+.Big-CountDown-Container{
+    margin-top:  220px;
+    /* position: absolute; */
+}
+
+#Discover-Res{
+   text-align: center;
+    margin-top: 50px;
+    color: brown;
+    font-size: 40px;
+    font-family: "Charm", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.All-Elements-Container{
+    position: absolute;
+    margin-left: 30px;
+}
+
+
+/* this is for the fist div-branches */
+.Branches-Container{
+    margin-top: 100px;
+   margin-left: 50%;
+}
+
+.BranchLogo{
+    width: 120px;
+    height: 110px;
+    border: 1px solid brown;
+    box-shadow: 2px 2px 4px white;
+    padding: 15px;
+}
+
+.CountingNum1{
+    position: absolute;
+    margin-top: 7px;
+    font-size: 45px;
+    color: #fff;
+    margin-left: 20px;
+}
+
+#CountDown-Texty1{
+    color: #fff;
+    margin-top: 80px;
+    /* text-align: center; */
+    font-size: 25px;
+    text-wrap: nowrap;
+    margin-left: -30px;
+}
+
+
+/* this is for the second div- Awards */
+.Awards-Container{
+    margin-top: 80px;
+    margin-left: 50%;
+}
+
+.Trophy{
+    color: rgb(117, 8, 8);
+    font-size: 110px;
+    border: 1px solid brown;
+    box-shadow: 2px 2px 4px white;
+    padding: 15px;
+}
+
+.CountingNum2{
+    position: absolute;
+    margin-top: 7px;
+    font-size: 45px;
+    color: #fff;
+    margin-left: 20px;
+}
+
+/* this section of the code is for happy customers */
+.HappyCust-Container{
+    margin-top: 80px;
+    margin-left: 50%;
+}
+
+.People-Customers{
+    color: rgb(117, 8, 8);
+    font-size: 110px;
+    display: flex;
+    margin: 0 auto;
+    border: 1px solid brown;
+    box-shadow: 2px 2px 4px white;
+    padding: 15px;
+}
+
+.CountingNum3{
+    position: absolute;
+    margin-top: 7px;
+    font-size: 45px;
+    color: #fff;
+    margin-left: 10px; 
+}
+
+
+/* this section of the code is for all the staff across.  */
+.StaffAcross-Container{
+    margin-top: 80px;
+    margin-left: 50%;
+}
+
+.All-Staffs{
+    color: rgb(117, 8, 8);
+    font-size: 110px;
+    display: flex;
+    margin: 0 auto;
+    border: 1px solid brown;
+    box-shadow: 2px 2px 4px white;
+    padding: 15px;
+}
+
+.CountingNum4{
+    position: absolute;
+    margin-top: 7px;
+    font-size: 45px;
+    color: #fff;
+    margin-left: 10px;
+}
+}
+
+
+
+
+/* for media screens like laptops, desktops etc */
+
+@media screen and (min-width: 1024px){
+
+    .Big-CountDown-Container{
+        position: absolute;
+        background-color: transparent;
+        margin-top: 700px;
+        height: 60vh;
+    }
+
+   
+    #Discover-Res{
+        margin-top: 10px;
+        color: brown;
+        margin-left: 50%;
+        font-size: 35px;
+        font-family: "Charm", cursive;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .All-Elements-Container{
+        display: flex;
+        background-color: transparent !important;
+        margin-top: 20px;
+    }
+    
+    #CountDown-Texty1{
+        color: #fff;
+        font-size: 18px;
+        margin-top: 60px;
+    }
+
+    /* this section of the code is for the branches container */
+
+    .Branches-Container{
+        margin-top: 90px;
+        margin-left: 190px;
+    }
+
+    .BranchLogo{
+        width: 90px;
+        height: 85px;
+        border: 1px solid brown;
+        box-shadow: 2px 2px 4px white;
+        padding: 10px;   
+        background-color: black;    
+    }
+
+    .CountingNum1{
+        position: absolute;
+        margin-top: 7px;
+        margin-left: 15px;
+        font-size: 35px;
+        color: #fff;
+    }
+
+
+/* this is for the second div- Awards */
+.Awards-Container{
+    margin-top: 90px;
+    margin-left: 120px;
+}
+
+.Trophy{
+    margin-left: 35px;
+    color: rgb(117, 8, 8);
+    font-size: 85px;
+    border: 1px solid brown;
+    box-shadow: 2px 2px 4px white;
+    padding: 15px;
+    background-color: black;
+}
+
+.CountingNum2{
+    position: absolute;
+    font-size: 35px;
+    color: #fff;
+    margin-top: 7px;
+    margin-left: 60px;
+}
+
+/* this section of the code is for happy customers */
+.HappyCust-Container{
+    margin-top: 90px;
+    margin-left: 130px;
+}
+
+.People-Customers{
+    margin-left: 35px;
+    color: rgb(117, 8, 8);
+    font-size: 85px;
+    border: 1px solid brown;
+    box-shadow: 2px 2px 4px white;
+    padding: 15px;
+    background-color: black; 
+}
+
+.CountingNum3{
+    position: absolute;
+    font-size: 35px;
+    color: #fff;
+    margin-top: 7px;
+    margin-left: 25px; 
+}
+
+/* this section of the code is for all the staff across.  */
+.StaffAcross-Container{
+    margin-top: 90px;
+    margin-left: 160px; 
+}
+
+.All-Staffs{
+    margin-left: 35px;
+    color: rgb(117, 8, 8);
+    font-size: 85px;
+    border: 1px solid brown;
+    box-shadow: 2px 2px 4px white;
+    padding: 15px;
+    background-color: black; 
+}
+
+.CountingNum4{
+    position: absolute;
+    font-size: 35px;
+    color: #fff;
+    margin-top: 7px;
+    margin-left: 35px;
+}
+
+}

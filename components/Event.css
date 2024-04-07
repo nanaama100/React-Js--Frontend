@@ -1,0 +1,720 @@
+@media screen and (max-width:769px){
+  .Event-DesktopVersion{
+    display: none;
+  }
+
+  .EventFirstSlideShow{
+    margin-top: 100px;
+  }
+
+  .Zoom1{
+    width: 100%;
+    height: 50vh;
+    margin-top: 60px;
+  }
+
+  #EventSlideTexty1{
+    margin-top: -180px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-family: "Amita", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .Zoom2{
+    width: 100%;
+    margin-top: 60px;
+    height: 50vh;
+  }
+
+  #EventSlideTexty2{
+    color: #fff;
+    font-size: 30px;
+    margin-top: -180px;
+    text-align: center;
+    font-family: "Amita", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+  .Zoom3{
+    width: 100%;
+    margin-top: 60px;
+    height: 50vh;
+  }
+
+  #EventSlideTexty3{
+    text-align: center;
+    margin-top: -180px;
+    color: #fff;
+    font-size: 30px;
+    font-family: "Amita", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+  .AboutEvent-Text{
+    margin-top: 60px;
+  }
+
+  #AboutEvent-TextHead{
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    padding: 20px;
+  }
+
+  #FirstEventTextHead{
+    margin-top: 30px;
+    color: #cc2828;
+    font-size: 29px;
+    font-family: "Charm", cursive;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  #EventTexty1{
+    color: #fff;
+    font-size: 18px;
+    margin-top: -30px;
+    padding: 40px;
+  }
+
+  #EventShowButtons1{
+    display: flex;
+    margin: 0 auto;
+    margin-top: -30px;
+    font-size: 18px;
+    background-color: #000;
+    color: #fff;
+    border: 2px solid brown;
+    height: 70px;
+    width: 160px;
+    padding-top: 20px;
+   padding-left: 30px;
+   cursor: pointer;
+  }
+
+  #EventTexty2{
+    color: #fff;
+    font-size: 18px;
+    margin-top: -90px;
+    padding: 40px;
+  }
+
+  #EventShowButtons2{
+    display: flex;
+    margin: 0 auto;
+    margin-top: -10px;
+    font-size: 18px;
+    background-color: #000;
+    color: #fff;
+    border: 2px solid brown;
+    height: 70px;
+    width: 160px;
+    padding-top: 20px;
+   padding-left: 30px;
+   cursor: pointer;
+  }
+
+  .MiddleImageEvent{
+    width: 40vb;
+    height: 500px;
+    margin-top: 70px;
+    margin-left: 50px;
+    border: 2px solid rgb(29, 28, 28);
+  }
+
+  .TheImageEvent-Cont{
+    margin-top: 80px;
+    width: 100%;
+    height: 100px;
+  }
+
+
+  #OpenSense{
+    color: #cc2828;
+    font-size: 50px;
+    font-family: "Charm", cursive;
+    text-align: center;
+    padding-top: 50px;
+    background-image: url('../asserts/GoodUse-Phone.jpg');
+    width: 100%;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  /* this section is for the booking container; images */
+
+.BigBookingEventConty{
+  margin-top: 90px;
+}
+
+#BookEventText{
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+}
+
+#BookEventPara{
+  color: #fff;
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+
+}
+
+.BookingEventsConty{
+  margin-top: 60px;
+  text-align: center;
+}
+
+.CelebrationsImage{
+  width: 100%;
+  height: auto;
+  border: 2px solid brown;
+}
+
+.WeddingImage{
+  width: 100%;
+  height: auto;
+  border: 2px solid brown;
+  border-top-left-radius: 150px;
+  border-top-right-radius: 180px;
+}
+
+.WeddingImage:hover{
+  transform: scale(1.1);
+  border: 2px solid grey;
+}
+
+.CelebrationsImage:hover{
+  transform: scale(1.1);
+  border: 2px solid grey;
+}
+
+.CelebrationsConty{
+  margin: 40px;
+}
+
+#CelebrationsText{
+  color: #fff;
+  font-size: 1.8em;
+  margin-top: 20px;
+}
+
+/* this section of the code is for the second booking of the event-container-book */
+.FormEventConty{
+  margin-top: 90px;
+}
+
+#FormTextHead{
+  color: #cc2828;
+  font-size: 26px;
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.EventSidePicture{
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+}
+
+.FormFillEvent{
+  display: block;
+  /* flex-direction: column; */
+}
+
+form{
+  margin-top: -40px;
+  display: flex;
+  flex-direction: column;
+}
+
+label{
+  font-size: 20px;
+  color: rgb(147, 142, 132);
+  margin-top: 80px;
+  margin-left: 100px;
+  margin-top: 70px;
+}
+
+input{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid #fff;
+  margin-left: 70px;
+  background-color: #000;
+  width: 250px;
+  padding-top: 30px;
+}
+
+#BookEventButton1{
+  width: 150px;
+  height: 50px;
+  margin-top: 50px;
+  margin-left: 120px;
+  font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  box-shadow: 2px 2px 16px solid grey;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+#BookEventButton1:hover{
+  background-color: #cc2828;
+}
+
+/* this section of the code is for the react multi-slide-show part */
+.BigBox-AnimatedEvent{
+  margin-top: 150px;
+}
+
+#UpcomingEventText{
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+}
+
+.containerCarouselEvent{
+  margin-top: 40px;
+}
+
+.EventImageSlide2{
+  height: 60vh;
+  width: 53vb;
+}
+
+.EventImageSlide3{
+  margin-top: -10px;
+  height: 57vh;
+  width: 55vb;
+}
+
+#EventName1{
+  color: #cc2828;
+  font-size: 34px;
+  text-align: center;
+}
+
+
+#EventDate1{
+  color: #fff;
+  font-size: 25px;
+  font-family: "Charm", cursive;
+  text-align: center;
+}
+
+#EventDate2{
+  color: #fff;
+  font-size: 25px;
+  font-family: "Charm", cursive;
+  text-align: center;
+}
+
+
+
+}
+
+
+
+/* for media screens like laptops, desktops etc */
+
+@media screen and (min-width: 1024px){ 
+  .BigEvent{
+    margin-top: 490px;
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  .EventFirstSlideShow{
+    margin-top: -600px;
+  }
+
+  .Zoom1{
+    width: 100%;
+    height: 110vh;
+    margin-top: 90px;
+  }
+
+  #EventSlideTexty1{
+    margin-top: -300px;
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+    font-family: "Amita", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .Zoom2{
+    margin-top: -40px;
+    width: 100%;
+  }
+
+  #EventSlideTexty2{
+    color: #fff;
+    font-size: 60px;
+    margin-top: -270px;
+    text-align: center;
+    font-family: "Amita", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+  .Zoom3{
+    width: 100%;
+    margin-top: -100px;
+    height: 140vh;
+  }
+
+  #EventSlideTexty3{
+    position: absolute;
+    margin-top: -260px;
+    color: #fff;
+    left: 300px;
+    font-size: 60px;
+    font-family: "Amita", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /* this part is for the background lines */
+
+.lines {
+  position: absolute;
+  top: 890px;
+  left: 0;
+  right: 0;
+  height: 800px;
+  margin: auto;
+  width: 90vw;
+  /* opacity: 0.5; */
+  z-index: 0;
+}
+
+.line {
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+}
+.line::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 20vh;
+  width: 100%;
+  top: -50%;
+  left: 0;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ffffff 75%, #ffffff 100%);
+  -webkit-animation: drop 9s 0s infinite;
+          animation: drop 9s 0s infinite;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+          animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+}
+.line:nth-child(1) {
+  margin-left: -30%;
+}
+.line:nth-child(1)::after {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+.line:nth-child(3) {
+  margin-left: 35%;
+}
+.line:nth-child(3)::after {
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
+}
+
+@-webkit-keyframes drop {
+  0% {
+    top: -50%;
+  }
+  100% {
+    top: 110%;
+  }
+}
+
+@keyframes drop {
+  0% {
+    top: -50%;
+  }
+  100% {
+    top: 110%;
+  }
+}
+
+
+.AboutEvent-Text{
+  margin-top: 100px;
+}
+
+#AboutEvent-TextHead{
+  margin-top: 40px;
+  color: #fff;
+  font-size: 3em;
+  text-align: center;
+  font-family: "Rakkas", serif;
+  letter-spacing: 3px;
+}
+
+#FirstEventTextHead2{
+  margin-top: 130px;
+  margin-left: 250px;
+  text-wrap: nowrap;
+  color: #cc2828;
+  font-size: 29px;
+  font-family: "Charm", cursive;
+  font-weight: 600;
+  order: 2;
+}
+
+#EventParagrah-Desktop{
+  position: absolute;
+  left: 45%;
+  width: 460px;
+  color: #fff;
+  order: 2;
+  margin-top: 190px;
+  line-height: 35px;
+
+}
+
+.imagesEvent14{
+  margin-top: 75px;
+  margin-left: 190px;
+  width: 300px;
+  height: 600px;
+  border:8px solid #0a0909;
+  order: 1;
+  z-index: 1;
+}
+
+.Event-DesktopVersion{
+  display: flex;
+}
+
+.Event-PhoneVersion{
+  display: none;
+}
+
+#OpenSense{
+  margin-top: 140px;
+  padding: 150px;
+  text-align: center;
+  color: #cc2828;
+  font-size: 50px;
+  font-family: "Charm", cursive;
+  font-weight: 600;
+  background-image: url('../asserts/Meme.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 50vh;
+}
+
+
+/* this section is for the booking container; images */
+
+.BigBookingEventConty{
+  margin-top: 90px;
+}
+
+#BookEventText{
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+}
+
+#BookEventPara{
+  color: #fff;
+  margin-top: 20px;
+  text-align: center;
+  width: 800px;
+  margin-left: 230px;
+}
+
+.BookingEventsConty{
+  margin-top: 60px;
+  display: flex;
+  margin-left: 30px;
+  text-align: center;
+}
+
+.CelebrationsImage{
+  width: 350px;
+  height: auto;
+  border: 2px solid brown;
+}
+
+.WeddingImage{
+  width: 350px;
+  height: auto;
+  border: 2px solid brown;
+  border-top-left-radius: 150px;
+  border-top-right-radius: 180px;
+}
+
+.WeddingImage:hover{
+transform: scale(1.1);
+border: 2px solid grey;
+}
+
+.CelebrationsImage:hover{
+  transform: scale(1.1);
+  border: 2px solid grey;
+}
+
+.CelebrationsConty{
+  margin: 40px;
+}
+
+#CelebrationsText{
+  color: #fff;
+  font-size: 1.8em;
+  margin-top: 20px;
+}
+
+/* this section of the code is for the second booking of the event-container-book */
+.FormEventConty{
+  margin-top: 60px;
+  display: flex;
+}
+
+#FormTextHead{
+  color: #cc2828;
+  font-size: 26px;
+  text-align: center;
+  margin-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.EventSidePicture{
+  width: 570px;
+  height: 450px;
+  margin-left: 60px;
+}
+
+.FormFillEvent{
+  display: block;
+  /* flex-direction: column; */
+}
+
+form{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 140px;
+}
+
+label{
+  font-size: 18px;
+  color: rgb(147, 142, 132);
+  margin-top: 80px;
+}
+
+input{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid #fff;
+  margin-left: 30px;
+  background-color: #000;
+  width: 250px;
+}
+
+#BookEventButton1{
+  width: 110px;
+  margin-top: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  box-shadow: 2px 2px 16px solid grey;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+#BookEventButton1:hover{
+  background-color: #cc2828;
+}
+
+/* this section of the code is for the react multi-slide-show part */
+.BigBox-AnimatedEvent{
+  margin-top: 100px;
+}
+
+#UpcomingEventText{
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+}
+
+.containerCarouselEvent{
+  margin-top: 40px;
+}
+
+.EventImageSlide2{
+  height: 67vh;
+  width: 72vb;
+}
+
+.EventImageSlide3{
+  margin-top: -10px;
+  height: 69vh;
+  width: 73vb;
+}
+
+#EventName1{
+  color: #cc2828;
+  font-size: 34px;
+  text-align: center;
+}
+
+
+#EventDate1{
+  color: #fff;
+  font-size: 25px;
+  font-family: "Charm", cursive;
+  text-align: center;
+}
+
+#EventDate2{
+  color: #fff;
+  font-size: 25px;
+  font-family: "Charm", cursive;
+  text-align: center;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
